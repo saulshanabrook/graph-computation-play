@@ -1,1 +1,1 @@
-docker run -it --rm -p 8888:8888 -v (pwd):/home/jovyan/work jupyter/tensorflow-notebook
+docker run -it --rm -p 8888:8888 -p 6006:6006 -v (pwd):/home/jovyan/work jupyter/tensorflow-notebook
