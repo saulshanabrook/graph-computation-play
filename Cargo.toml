@@ -1,0 +1,11 @@
+[package]
+name = "graph-computation-play"
+version = "0.1.0"
+authors = ["Saul Shanabrook <s.shanabrook@gmail.com>"]
+
+[dependencies]
+rand = "0.3"
+
+[[bin]]
+name = "graph-computation-play"
+path = "main.rs"
